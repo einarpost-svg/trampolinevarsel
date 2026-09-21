@@ -32,10 +32,10 @@ LONGITUDE = 7.9956
 # Terskler i m/s. MET rapporterer i m/s.
 # Referanse (Beaufort): 11-13.8 = liten kuling, 13.9-17.1 = stiv kuling,
 # 17.2-20.7 = sterk kuling, 20.8-24.4 = liten storm
-WARN_SUSTAINED_MS = 01.0   # vedvarende vind -> "vurder å rydde inn"
-WARN_GUST_MS = 01.0        # vindkast -> "vurder å rydde inn"
-URGENT_SUSTAINED_MS = 01.0  # vedvarende vind -> hastevarsel
-URGENT_GUST_MS = 01.0       # vindkast -> hastevarsel
+WARN_SUSTAINED_MS = 13.0   # vedvarende vind -> "vurder å rydde inn"
+WARN_GUST_MS = 15.0        # vindkast -> "vurder å rydde inn"
+URGENT_SUSTAINED_MS = 17.0  # vedvarende vind -> hastevarsel
+URGENT_GUST_MS = 20.0       # vindkast -> hastevarsel
 
 # Hvor mange timer fram i tid skal vi se etter høy vind?
 LOOKAHEAD_HOURS = 36
