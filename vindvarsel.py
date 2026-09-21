@@ -52,7 +52,7 @@ if not NTFY_TOPIC:
 NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}"
 
 # MET Norway krever en identifiserbar User-Agent med kontaktinfo
-USER_AGENT = "vindvarsel-trampoline/1.0 github.com/einar (kontakt: sett-inn-epost@example.com)"
+USER_AGENT = "vindvarsel-trampoline/1.0 github.com/einar (kontakt: einarpost@gmail.com)"
 
 MET_URL = (
     "https://api.met.no/weatherapi/locationforecast/2.0/compact"
