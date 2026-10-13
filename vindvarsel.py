@@ -35,7 +35,7 @@ LONGITUDE = 8.075
 WARN_SUSTAINED_MS = 13.0   # vedvarende vind -> "vurder å rydde inn"
 WARN_GUST_MS = 15.0        # vindkast -> "vurder å rydde inn"
 URGENT_SUSTAINED_MS = 17.0  # vedvarende vind -> hastevarsel
-URGENT_GUST_MS = 19.0       # vindkast -> hastevarsel
+URGENT_GUST_MS = 20.0       # vindkast -> hastevarsel
 
 # Hvor mange timer fram i tid skal vi se etter høy vind?
 LOOKAHEAD_HOURS = 36
@@ -55,7 +55,7 @@ NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}"
 USER_AGENT = "vindvarsel-trampoline/1.0 github.com/einar (kontakt: einarpost@gmail.com)"
 
 MET_URL = (
-    "https://api.met.no/weatherapi/locationforecast/2.0/compact"
+    "https://api.met.no/weatherapi/locationforecast/2.0/complete"
     f"?lat={LATITUDE}&lon={LONGITUDE}"
 )
 
