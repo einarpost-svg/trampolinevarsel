@@ -26,8 +26,8 @@ import requests
 # ---------------------------------------------------------------------------
 
 # Kristiansand sentrum – bytt til nøyaktig posisjon for trampolinen
-LATITUDE = 58.1467
-LONGITUDE = 7.9956
+LATITUDE = 58.1567
+LONGITUDE = 8.075
 
 # Terskler i m/s. MET rapporterer i m/s.
 # Referanse (Beaufort): 11-13.8 = liten kuling, 13.9-17.1 = stiv kuling,
@@ -35,7 +35,7 @@ LONGITUDE = 7.9956
 WARN_SUSTAINED_MS = 13.0   # vedvarende vind -> "vurder å rydde inn"
 WARN_GUST_MS = 15.0        # vindkast -> "vurder å rydde inn"
 URGENT_SUSTAINED_MS = 17.0  # vedvarende vind -> hastevarsel
-URGENT_GUST_MS = 20.0       # vindkast -> hastevarsel
+URGENT_GUST_MS = 19.0       # vindkast -> hastevarsel
 
 # Hvor mange timer fram i tid skal vi se etter høy vind?
 LOOKAHEAD_HOURS = 36
